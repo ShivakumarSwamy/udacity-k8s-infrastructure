@@ -7,7 +7,7 @@ The project provides guide and setup scripts for udacity eks cluster
 - [pre requisites](#pre-requisites)
 - [cluster setup](#cluster-setup)
   - [create cluster](#create-cluster)
-  - [aws load balancer controller setup)](#aws-load-balancer-controller-setup)
+  - [aws load balancer controller setup](#aws-load-balancer-controller-setup)
 - [create namespace](#create-a-namespace)
 - [configure circle ci aws user or role access to cluster](#configure-circle-ci-aws-user-or-role-access-to-cluster)
 
@@ -32,7 +32,7 @@ Pass the cluster name, region, ssh public key and zones to the script as argumen
 ```
 
 ### AWS Load Balancer Controller Setup
-AWS Load Balancer Controller listens to ingress and service objects to create ALB and NLB respectively. More info can be found [here](https://kubernetes-sigs.github.io/aws-load-balancer-controller/latest/)
+AWS Load Balancer Controller listens to ingress and service objects to create ALB and NLB respectively. More info can be found [here].(https://kubernetes-sigs.github.io/aws-load-balancer-controller/latest/)  
 Please set up the ALB loadbalancer requirements as specified [here](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
 
 or you can use the below steps to set it up
