@@ -1,6 +1,6 @@
 # Udacity k8s infrastructure
 
-The project provides guide and setup scripts for udacity eks cluster 
+This project provides guide and setup scripts for udacity eks cluster 
 
 # Table Of Contents
 
